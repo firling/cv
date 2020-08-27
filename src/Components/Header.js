@@ -18,8 +18,8 @@ class Header extends Component {
 
       <nav id="nav-wrap">
 
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Afficher la navigation</a>
+	      <a className="mobile-btn" href="#home" title="Hide navigation">Cacher la navigation</a>
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
@@ -34,11 +34,16 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h1 className="responsive-headline">Julien Anquetil</h1>
+            <h3>Étudiant Alternant en Cybersécurité à l'<span>ESID de Brest</span>.</h3>
+            <h3>Développeur Web Freelance chez <span>Rubrash</span>.</h3>
             <hr />
             <ul className="social">
-               {networks}
+               <li key="facebook"><a href="https://www.facebook.com/julien.anquetil.5/"><i className="fa fa-facebook"></i></a></li>
+               <li key="github"><a href="https://github.com/firling"><i className="fa fa-github"></i></a></li>
+               <li key="twitter"><a href="https://twitter.com/FirlingYay"><i className="fa fa-twitter"></i></a></li>
+               <li key="linkedin"><a href="https://www.linkedin.com/in/julien-anquetil-0b7173176/"><i className="fa fa-linkedin"></i></a></li>
+               <li key="instagram"><a href="https://www.instagram.com/julien_aqtl/"><i className="fa fa-instagram"></i></a></li>
             </ul>
          </div>
       </div>
