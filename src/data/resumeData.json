@@ -1,0 +1,201 @@
+{
+  "main": {
+    "name":"Julien Anquetil",
+    "image":"profilepic.jpg",
+    "bio":"Je suis étudiant en cybersécurité et freelance en développement web. Actuellement en Bachelor de Sécurité Informatique en Alternance au Ministère des Armées à Brest, je compte faire un Master MBA Développeur Fullstack à MyDigitalSchool à Annecy et recherche une alternance pour l'année universitaire prochaine (2021 - 2022) en développement web.",
+    "contactmessage":"Si vous avez un projet pour moi, vous pensez que je pourrais être un bon élement pour votre équipe ou tout simplement vous voulez en savoir plus sur moi, n'hésitez pas à m'envoyer un mail je serais ravis d'y repondre!",
+    "email": "anquetil.jul@gmail.com",
+    "phone": "06.30.60.59.53",
+    "address":{
+      "street":"14 rue de la Piquetière",
+      "city":"Rennes",
+      "state":"France",
+      "zip": "35700"
+    },
+    "website": "http://anquetil.org",
+    "resumedownload":"http://anquetil.org/ss/i/xvneh.pdf",
+    "social":[
+      {
+        "name":"github",
+        "url":"http://github.com/firling",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/FirlingYay",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/julien-anquetil-0b7173176/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"malt",
+        "url":"https://www.malt.fr/profile/julienaqtl",
+        "className":"fa fa-star"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "degree":"MBA Full-Stack",
+        "school":"MyDigitalSchool",
+        "location":"Annecy",
+        "graduated":"De septembre 2021 à juillet 2023",
+        "description":"Formation en 2 ans en alternance dédiée au développement web et mobile ainsi qu'au management de projet."
+      },
+      {
+        "degree":"Bachelor Sécurité Informatique",
+        "school":"Pôle Sup de la Salle",
+        "location":"Rennes",
+        "graduated":"De août 2020 à juillet 2021",
+        "description":"Formation en 1 an en alternance. \nConception d'architectures techniques sécurisées. \nDéveloppement sécurisé. \nProjet annuel réalisé: Développement d'un RAT (remote administraion tool) fonctionnant sur l'OS windows."
+      },
+      {
+        "degree":"BTS Service Informatique aux Organisations",
+        "school":"Pôle Sup de la Salle",
+        "location":"Rennes",
+        "graduated":"De septembre 2018 à juillet 2020",
+        "description":"Formation en 2 ans. \nOption SLAM (Solutions Logicielles et Applications Métier)."
+      }
+    ],
+    "work":[
+      {
+        "title":"Alternance en développement web",
+        "company":"Ministère des Armées - ESID",
+        "location":"Brest",
+        "years":"De août 2020 à juillet 2021",
+        "description":"Développement en React d'une application permettant la modélisation fonctionnelle d'architechtures techniques sécurisées."
+      },
+      {
+        "title":"Développeur full-stack en Freelance",
+        "company":"Freelance",
+        "years":"Depuis mai 2020",
+        "description":"Création d'applications web pour divers clients. \nOutils principaux: React.js / Laravel / Node.js / Vue.js / Git"
+      },
+      {
+        "title":"Stage Développeur web",
+        "company":"Voyelle",
+        "location":"Cesson-Sévigné",
+        "years":"De janvier 2020 à février 2020",
+        "description":"Digitalisation des notes de frais de l'entreprise. \nUtilisation de Vue.js et Laravel."
+      },
+      {
+        "title":"Stage Développeur web",
+        "company":"Hoppen",
+        "location":"Cesson-Sévigné",
+        "years":"De main 2019 à juin 2019",
+        "description":"Création d'une application web pour le projet MyMediaScreen de l'entreprise. \nUtilisation de React.js, Node.js, Docker et Mongo DB"
+      }
+    ],
+    "skills_tech":[
+      {
+        "name":"React.js",
+        "level":"90%"
+      },
+      {
+        "name":"Vue.js",
+        "level":"60%"
+      },
+      {
+        "name":"Laravel",
+        "level":"80%"
+      },
+      {
+        "name":"Node.js",
+        "level":"70%"
+      },
+      {
+        "name":"React Native",
+        "level":"50%"
+      },
+      {
+        "name":"Mongo DB",
+        "level":"60%"
+      },
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Docker",
+        "level":"30%"
+      }
+    ],
+    "skills_prog":[
+      {
+        "name":"Javascript",
+        "level":"80%"
+      },
+      {
+        "name":"Python",
+        "level":"70%"
+      },
+      {
+        "name":"Php",
+        "level":"70%"
+      },
+      {
+        "name":"C#",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"40%"
+      },
+      {
+        "name":"C",
+        "level":"30%"
+      },
+      {
+        "name":"SQL",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"BaldRAT",
+        "category":"Projet annuel réalisé pendant mon année en Bachelor Sécurité Informatique",
+        "image":"bladrat.jpg",
+        "url":"https://github.com/4D5A90/BaldRat"
+      },
+      {
+        "title":"VerySecureChat",
+        "category":"Mini projet en cryptographie réalisé pendant mon année en Bachelor Sécurité Informatique",
+        "image":"very-secure-chat.jpg",
+        "url":"https://github.com/firling/VerySecureChat"
+      },
+      {
+        "title":"Tester-tool",
+        "category":"Projet réalisé pour le jeu vidéo Pokemon Révlution online - Outil pour les testeurs du jeu",
+        "image":"tester-tool.jpg",
+        "url":"https://github.com/firling/tester_tool"
+      },
+      {
+        "title":"PRO Poke Finder",
+        "category":"Projet réalisé pour le jeu vidéo Pokemon Révlution online - outil pour les joueurs",
+        "image":"pro-poke-finder.jpg",
+        "url":"http://51.68.122.81/"
+      },
+      {
+        "title":"Manga PDF Creator",
+        "category":"Script permettant de créer des PDF des manga voulu",
+        "image":"manga-pdf-creator.jpg",
+        "url":"https://github.com/firling/MangaPDFCreator"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"J'ai eu l'occasion de travailler avec Julien plusieurs fois et je ne peut que le recommander. Sa capacité à gérer, s'adapter et achever un projet est excellente. Il à énormément de compétences et les met à profit dans ses projets !",
+        "user":"Hugo Lebreton - Développeur Fullstack en Freelance"
+      }
+    ]
+  }
+}
