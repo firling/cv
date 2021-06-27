@@ -84,8 +84,8 @@
         "description":"Création d'applications web pour divers clients:",
         "list": [
           "Développement d'une applucation web de génération de Leads pour une fédération patronale française. (Laravel / Vue.js / Node.js)",
-          "Développement d'une application web de gestion d'entretiens d'embauches allant de la validation du CV jusqu'à la signature du contrat. (Laravel / Node.js)",
-          "Maintenance d'une application web de gestion de contrat d'assurance. (Laravel)"
+          "Développement d'une application web de gestion d'entretiens d'embauches allant de la validation du CV jusqu'à la signature du contrat pour Wisecom. (Laravel / Node.js)",
+          "Maintenance d'une application web de gestion de contrat d'assurance pour Tripalio. (Laravel)"
         ]
       },
       {
