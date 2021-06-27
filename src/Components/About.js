@@ -25,7 +25,7 @@ function About ({data: {name, image, bio, address: {street, city, state, zip}, p
                   </div>
                   <div className="columns download">
                      <p>
-                        <a href={resumedownload} target="_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                        <a href={resumedownload} target="_blank" className="button"><i className="fa fa-download"></i>Télécharger mon CV</a>
                      </p>
                   </div>
                </div>

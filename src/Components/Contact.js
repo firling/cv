@@ -71,7 +71,7 @@ function Contact ({data: {name, address: {street, city, state, zip}, phone, emai
                   </div>
 
                   <div>
-                     <button className="submit" onClick={sendMail}>Submit</button>
+                     <button className="submit" onClick={sendMail}>Envoyer</button>
                      <span id="image-loader"><img src="images/loader.gif" /></span>
                   </div>
 					</fieldset>
