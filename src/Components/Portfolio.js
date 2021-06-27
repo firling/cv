@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 function Portfolio ({data: {projects}}){
+  const openTab = (url) => {
+    window.open(url, "_blank")
+  }
+
   return (
     <section id="portfolio">
 
@@ -8,13 +12,13 @@ function Portfolio ({data: {projects}}){
 
         <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Découvrez certains de mes projets.</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects.map((project) => (
                   <div key={project.title} className="columns portfolio-item">
                     <div className="item-wrap">
-                      <a href={project.url} title={project.title} target="_blank">
+                      <a href={project.url} target="_blank" title={project.title} onClick={() => openTab(project.url)}>
                           <img alt={project.title} src={`images/portfolio/${project.image}`} />
                           <div className="overlay">
                             <div className="portfolio-item-meta">

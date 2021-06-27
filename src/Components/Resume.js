@@ -43,6 +43,11 @@ function Resume ({data: {skillmessage, education, work, skills_tech, skills_prog
               {wrk.description.split("\n").map((description) => (
                 <>{description}<br/></>
               ))}
+              {wrk.list ? (
+                <ul>
+                  {wrk.list.map(elt => (<li><span>&bull;</span> {elt}</li>))}
+                </ul>
+              ) : <></>}
               </p>
             </div>
           ))}

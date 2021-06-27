@@ -60,6 +60,13 @@
         "location":"Rennes",
         "graduated":"De septembre 2018 à juillet 2020",
         "description":"Formation en 2 ans. \nOption SLAM (Solutions Logicielles et Applications Métier)."
+      },
+      {
+        "degree":"Bac STI2D avec mention",
+        "school":"Lycée Frédérique Ozanam",
+        "location":"Cesson-Sévigné",
+        "graduated":"De septembre 2016 à juillet 2018",
+        "description":"Option Système D'Information et Numérique (SIN). \nRéalisation d'une boite de sécurité pour le domicile (Détecteur de mouvement, de fumée, envoie de photo)."
       }
     ],
     "work":[
@@ -74,7 +81,12 @@
         "title":"Développeur full-stack en Freelance",
         "company":"Freelance",
         "years":"Depuis mai 2020",
-        "description":"Création d'applications web pour divers clients. \nOutils principaux: React.js / Laravel / Node.js / Vue.js / Git"
+        "description":"Création d'applications web pour divers clients:",
+        "list": [
+          "Développement d'une applucation web de génération de Leads pour une fédération patronale française. (Laravel / Vue.js / Node.js)",
+          "Développement d'une application web de gestion d'entretiens d'embauches allant de la validation du CV jusqu'à la signature du contrat. (Laravel / Node.js)",
+          "Maintenance d'une application web de gestion de contrat d'assurance. (Laravel)"
+        ]
       },
       {
         "title":"Stage Développeur web",
@@ -184,7 +196,7 @@
       },
       {
         "title":"Manga PDF Creator",
-        "category":"Script permettant de créer des PDF des manga voulu",
+        "category":"Script permettant de créer des PDF des manga voulus",
         "image":"manga-pdf-creator.jpg",
         "url":"https://github.com/firling/MangaPDFCreator"
       }
