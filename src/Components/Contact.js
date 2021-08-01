@@ -12,7 +12,7 @@ function Contact ({data: {name, address: {street, city, state, zip}, phone, emai
       const success = document.getElementById('message-success');
       const error = document.getElementById('message-warning');
       loader.style.display = "inline";
-      axios.post(`https://anquetil.org:3333/api/sendMail`, {
+      axios.post(`https://mail.anquetil.org/api/sendMail`, {
          name: nom,
          email: mail,
          subject,
