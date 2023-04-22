@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+
+  cv:
+    container_name: cv
+    build:
+      context: .
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+
+      - "traefik.http.routers.cv.entrypoints=websecure"
+      - "traefik.http.routers.cv.rule=Host(`anquetil.org`)"
+      - "traefik.http.routers.cv.tls=true"
+      - "traefik.http.routers.cv.tls.certresolver=letsencrypt"
+
+
+networks:
+  traefik:
+    external: true
